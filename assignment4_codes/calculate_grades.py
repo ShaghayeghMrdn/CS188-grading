@@ -138,7 +138,7 @@ def pull_commit(team: str, github_link: str, commit_hash: str) -> None:
 
 #--------------main--------------
 if len(sys.argv) < 3:
-    print('Usage: python3 grading.py <csv_file_path> <2A/2B>')
+    print('Usage: python3.7 calculate_grades.py csv_file (2A|2B)')
     exit(1)
 
 csv_file_path = sys.argv[1]
